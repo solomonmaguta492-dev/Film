@@ -20,6 +20,10 @@ body{
     line-height: 1.6;
 }
 
+.image {
+    width: 30%;
+}
+
     
 
 /* Header & Navigation */
@@ -46,9 +50,7 @@ nav ul li a:hover {
     color: #445f5d25; /* Catchy Red */
 }
 
-
-
-
-div{
+div {
     display: block;
 }
+
