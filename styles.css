@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    
+}
+img{
+    width: 100%;
+    display: block;
+}
+nav a{
+    text-decoration: none;
+    color: #445f5d; /* Catchy Red */
+    
+}
+
+    
+
+/* Header & Navigation */
+.navbar {
+    background-color: #d7d885;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #445f5d; /* Catchy Red */
+}
+header .logo{
+    display: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+img hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+nav ul li a:hover {
+    color: #445f5d25; /* Catchy Red */
+}
+
+
+
+
+div{
+    display: block;
+}
