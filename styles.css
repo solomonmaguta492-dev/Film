@@ -5,6 +5,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 
 }
+header {
+    background-color: #010101;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #445f5d;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
+title {
+    text-align: center;
+    color: #06e8d9;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+    /* Catchy Red */
+}
 h1{
     text-align: center;
     color: #06e8d9;
