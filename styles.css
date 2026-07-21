@@ -94,10 +94,8 @@ header .logo {
     font-weight: bold;
 }
 
-img hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
+
+
 
 nav ul li a:hover {
     color: #445f5d25;
@@ -121,7 +119,7 @@ div {
     align-items: center;
     gap: 20px;
 }
-
+/
 img {
     border-radius: 40px;
 }
