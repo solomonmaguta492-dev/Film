@@ -107,8 +107,7 @@ nav ul li a:hover {
 div {
     display: block;
 }
-
-
+/* Grid Layout for Photos */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
