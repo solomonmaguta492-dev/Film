@@ -38,10 +38,6 @@ img {
 }
 
 /* Hero Section */
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
 
 .hero {
     max-width: 1100px;
@@ -79,45 +75,15 @@ img:hover {
 }
 
 /* Hero Overlay Text Styles */
-.hero-overlay h1,
-.hero-overlay .mission,
-.hero-overlay .vision {
-    color: #fff;
-    margin: 0 0 10px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
-}
 
-.hero-overlay h1 {
-    font-size: 2rem;
-}
 
-.hero-overlay .mission,
-.hero-overlay .vision {
-    font-size: 1.1rem;
-}
+
 
 .card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
 
-
-
-
-center {
-    text-align: center;
-    font-color: #06e8d9;
-    /* Catchy Red */
-}
-
-nav a {
-    text-decoration: none;
-    color: #12d3c6;
-    /* Catchy Red */
-
-}
-
-/* Footer Styles */
 body {
     background-color: #010101;
     color: #333;
@@ -154,7 +120,7 @@ header .logo span {
     font-size: 2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #06e8d9;
+    color: #c5eae7;
 }
 
 
@@ -184,6 +150,7 @@ div {
     align-items: center;
     gap: 20px;
 }
+
 /* Contact Section */
 .contact {
     margin: 40px 20px;
@@ -192,6 +159,21 @@ div {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
 }
+
+/*submit section */
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: italic;
+    background-color: #c7c7c7;
+    
+
+}
+
 
 img {
     border-radius: 40px;
